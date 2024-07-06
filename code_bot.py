@@ -84,8 +84,7 @@ code_root = root_dir / 'code'
 # Assumes the 'openai-python' repository exists in the user's root directory
 # Extract all functions from the repository
 all_funcs = extract_functions_from_repo(code_root)
-# from openai import OpenAI
-# client = OpenAI(api_key="sk-proj-gunnJU9RDHANMr6NKIg4T3BlbkFJb1Lk08cDBYCuUhJr8O2e")
+
 
 # def get_embedding(text, model="text-embedding-ada-002"):
 #    text = text.replace("\n", " ")
